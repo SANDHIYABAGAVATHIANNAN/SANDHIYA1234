@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+
+body{
+  background-image: url('log.jpeg');
+  background-repeat: no-repeat;
+  border:20%;
+  background-size: cover;
+}
+ .form{
+  width:250px;
+  height:380px;
+  
+  background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+
+  position:absolute;
+  
+  left:1000px;
+  border-radius:10px;
+  padding:25px;
+ 
+}
+
+h3
+{
+  width:190px;
+  font-family:sans-serif;
+  text-align:center;
+  color:orange;
+  font-size:22px;
+  background-color:white;
+  border-radius:10px;
+  padding:1%;
+  margin:2px; 
+}
+
+</style>
+
+<div class="form">
+  <h3>Login Here</h3>
+  <input type="email" name="email" placeholder="Enter Email Here">
+  <input type="password",name=" " placeholder="Enter Password Here">
+  <button class="btn"><a href="#">Login</a></button>
+  <p class="link">Don't have an account</p><br>
+  <a href="#">Sign up here</a><br>
+  <p class="log">log in with</p>
+</div>
+</body>
+</html>
+
+/*CREATE TABLE ORDER(order_id bigint,order_date date,order_time time,cus_id bigint,food_id bigint,emp_id bigint,FOREIGN KEY(cus_id) REFERENCES customer(cus_id),
+                  FOREIGN KEY(food_id) REFERENCES customer(food_id),FOREIGN KEY(emp_id) REFERENCES customer(emp_id));*/
+
+https://dextutor.com/program-for-ipc-using-shared-memory/
